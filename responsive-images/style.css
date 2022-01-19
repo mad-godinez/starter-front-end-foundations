@@ -19,32 +19,33 @@ h3 {
   margin: 12px 0;
   border-bottom: 1px solid lightgray;
 }
+img{
+	width: 100%;
+}
 
 /* Groups & Items */
-
 .group {
   display: flex;
   flex-direction: column;
 }
-
 .item {
   flex: 1;
   margin: 10px;
 }
-
 .item-double {
   flex: 2;
   margin: 10px;
 }
-
+/* .item-half{
+  flex: 0.5;
+  margin: 10px;
+} */
 /* Groups & Items  (Desktop) */
-
 @media all and (min-width: 800px) {
   section,
   h1 {
     padding: 0 10%;
   }
-
   .group {
     flex-direction: row;
   }
